@@ -1,0 +1,19 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+/*Пользователь вводит три числа. Увеличьте первое число в два раза, второе число
+уменьшите на 3, третье число возведите в квадрат и затем найдите сумму новых
+трех чисел*/
+int main() {
+
+	float a, b, c;
+	cout << "Enter 3 numbers" << endl;
+	cin >> a >> b >> c;
+	a = a * 2;
+	b = b - 3;
+	c = c * c;
+	cout << a + b + c << endl;
+
+	return 0;
+}
