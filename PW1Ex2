@@ -13,7 +13,6 @@ int main() {
 	cin >> L;
 
 	S1 = 3.14 * R * R;
-	cout << S1 << endl;
 	S2 = 3.14 * R * L;
 	S = S1 + S2;
 
