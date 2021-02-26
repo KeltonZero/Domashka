@@ -2,7 +2,7 @@
 #include <cmath>
 
 using namespace std;
-
+/*Пользователь вводит параметры фигуры. Найти периметр и площадь фигур:Конус (площадь)*/
 int main() {
 
 	cout << "Enter R" << endl;
